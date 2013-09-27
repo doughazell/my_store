@@ -1,0 +1,3 @@
+Blue theme background: 0x162F54
+BSC Coy text: 0xCBCB67
+ 

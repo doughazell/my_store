@@ -1,0 +1,365 @@
+~/src/temp/spree$ gem install rails -v 3.2.14
+Fetching: activesupport-3.2.14.gem (100%)
+Fetching: activemodel-3.2.14.gem (100%)
+Fetching: actionpack-3.2.14.gem (100%)
+Fetching: activerecord-3.2.14.gem (100%)
+Fetching: activeresource-3.2.14.gem (100%)
+Fetching: actionmailer-3.2.14.gem (100%)
+Fetching: railties-3.2.14.gem (100%)
+Fetching: rails-3.2.14.gem (100%)
+Successfully installed activesupport-3.2.14
+Successfully installed activemodel-3.2.14
+Successfully installed actionpack-3.2.14
+Successfully installed activerecord-3.2.14
+Successfully installed activeresource-3.2.14
+Successfully installed actionmailer-3.2.14
+Successfully installed railties-3.2.14
+Successfully installed rails-3.2.14
+8 gems installed
+Installing ri documentation for activesupport-3.2.14...
+Installing ri documentation for activemodel-3.2.14...
+Installing ri documentation for actionpack-3.2.14...
+Installing ri documentation for activerecord-3.2.14...
+Installing ri documentation for activeresource-3.2.14...
+Installing ri documentation for actionmailer-3.2.14...
+Installing ri documentation for railties-3.2.14...
+Installing ri documentation for rails-3.2.14...
+Installing RDoc documentation for activesupport-3.2.14...
+Installing RDoc documentation for activemodel-3.2.14...
+Installing RDoc documentation for actionpack-3.2.14...
+Installing RDoc documentation for activerecord-3.2.14...
+Installing RDoc documentation for activeresource-3.2.14...
+Installing RDoc documentation for actionmailer-3.2.14...
+Installing RDoc documentation for railties-3.2.14...
+Installing RDoc documentation for rails-3.2.14...
+~/src/temp/spree$ 
+~/src/temp/spree$ 
+~/src/temp/spree$ gem list spree
+
+*** LOCAL GEMS ***
+
+spree (1.1.1, 1.1.0, 0.70.1)
+spree_api (1.1.1, 1.1.0, 0.70.1)
+spree_auth (1.1.1, 1.1.0, 0.70.1)
+spree_cmd (1.1.6, 1.1.1, 1.1.0)
+spree_core (1.1.1, 1.1.0, 0.70.1)
+spree_dash (1.1.1, 1.1.0, 0.70.1)
+spree_promo (1.1.1, 1.1.0, 0.70.1)
+spree_sample (1.1.1, 1.1.0, 0.70.1)
+spree_skrill (1.0.2)
+spree_usa_epay (1.0.2)
+~/src/temp/spree$ 
+~/src/temp/spree$ 
+~/src/temp/spree$ gem install spree
+Fetching: money-5.1.1.gem (100%)
+Fetching: activemerchant-1.37.0.gem (100%)
+Fetching: awesome_nested_set-2.1.5.gem (100%)
+Fetching: cancan-1.6.10.gem (100%)
+Fetching: ffaker-1.18.0.gem (100%)
+Fetching: highline-1.6.18.gem (100%)
+Fetching: paperclip-3.4.2.gem (100%)
+##################################################
+#  NOTE FOR UPGRADING FROM PRE-3.0 VERSION       #
+##################################################
+
+Paperclip 3.0 introduces a non-backward compatible change in your attachment
+path. This will help to prevent attachment name clashes when you have
+multiple attachments with the same name. If you didn't alter your
+attachment's path and are using Paperclip's default, you'll have to add
+`:path` and `:url` to your `has_attached_file` definition. For example:
+
+    has_attached_file :avatar,
+      :path => ":rails_root/public/system/:attachment/:id/:style/:filename",
+      :url => "/system/:attachment/:id/:style/:filename"
+
+Fetching: paranoia-1.3.1.gem (100%)
+Fetching: state_machine-1.2.0.gem (100%)
+Fetching: stringex-1.5.1.gem (100%)
+Fetching: truncate_html-0.9.2.gem (100%)
+Fetching: spree_core-2.0.4.gem (100%)
+Fetching: rabl-0.8.4.gem (100%)
+Fetching: versioncake-1.0.0.gem (100%)
+Fetching: spree_api-2.0.4.gem (100%)
+Fetching: jquery-ui-rails-4.0.4.gem (100%)
+Fetching: select2-rails-3.4.8.gem (100%)
+Fetching: spree_backend-2.0.4.gem (100%)
+Fetching: canonical-rails-0.0.3.gem (100%)
+Fetching: spree_frontend-2.0.4.gem (100%)
+Fetching: spree_sample-2.0.4.gem (100%)
+Fetching: spree_cmd-2.0.4.gem (100%)
+Fetching: spree-2.0.4.gem (100%)
+Successfully installed money-5.1.1
+Successfully installed activemerchant-1.37.0
+Successfully installed awesome_nested_set-2.1.5
+Successfully installed cancan-1.6.10
+Successfully installed ffaker-1.18.0
+Successfully installed highline-1.6.18
+Successfully installed paperclip-3.4.2
+Successfully installed paranoia-1.3.1
+Successfully installed state_machine-1.2.0
+Successfully installed stringex-1.5.1
+Successfully installed truncate_html-0.9.2
+Successfully installed spree_core-2.0.4
+Successfully installed rabl-0.8.4
+Successfully installed versioncake-1.0.0
+Successfully installed spree_api-2.0.4
+Successfully installed jquery-ui-rails-4.0.4
+Successfully installed select2-rails-3.4.8
+Successfully installed spree_backend-2.0.4
+Successfully installed canonical-rails-0.0.3
+Successfully installed spree_frontend-2.0.4
+Successfully installed spree_sample-2.0.4
+Successfully installed spree_cmd-2.0.4
+Successfully installed spree-2.0.4
+23 gems installed
+Installing ri documentation for money-5.1.1...
+Installing ri documentation for activemerchant-1.37.0...
+Installing ri documentation for awesome_nested_set-2.1.5...
+Installing ri documentation for cancan-1.6.10...
+Installing ri documentation for ffaker-1.18.0...
+Installing ri documentation for highline-1.6.18...
+Installing ri documentation for paperclip-3.4.2...
+Installing ri documentation for paranoia-1.3.1...
+Installing ri documentation for state_machine-1.2.0...
+Installing ri documentation for stringex-1.5.1...
+Installing ri documentation for truncate_html-0.9.2...
+Installing ri documentation for spree_core-2.0.4...
+Installing ri documentation for rabl-0.8.4...
+Installing ri documentation for versioncake-1.0.0...
+Installing ri documentation for spree_api-2.0.4...
+Installing ri documentation for jquery-ui-rails-4.0.4...
+Installing ri documentation for select2-rails-3.4.8...
+Installing ri documentation for spree_backend-2.0.4...
+Installing ri documentation for canonical-rails-0.0.3...
+Installing ri documentation for spree_frontend-2.0.4...
+Installing ri documentation for spree_sample-2.0.4...
+Installing ri documentation for spree_cmd-2.0.4...
+Installing ri documentation for spree-2.0.4...
+Installing RDoc documentation for money-5.1.1...
+Installing RDoc documentation for activemerchant-1.37.0...
+Installing RDoc documentation for awesome_nested_set-2.1.5...
+Installing RDoc documentation for cancan-1.6.10...
+Installing RDoc documentation for ffaker-1.18.0...
+Installing RDoc documentation for highline-1.6.18...
+Installing RDoc documentation for paperclip-3.4.2...
+Installing RDoc documentation for paranoia-1.3.1...
+Installing RDoc documentation for state_machine-1.2.0...
+Installing RDoc documentation for stringex-1.5.1...
+Installing RDoc documentation for truncate_html-0.9.2...
+Installing RDoc documentation for spree_core-2.0.4...
+Installing RDoc documentation for rabl-0.8.4...
+Installing RDoc documentation for versioncake-1.0.0...
+Installing RDoc documentation for spree_api-2.0.4...
+Installing RDoc documentation for jquery-ui-rails-4.0.4...
+Installing RDoc documentation for select2-rails-3.4.8...
+Installing RDoc documentation for spree_backend-2.0.4...
+Installing RDoc documentation for canonical-rails-0.0.3...
+Installing RDoc documentation for spree_frontend-2.0.4...
+Installing RDoc documentation for spree_sample-2.0.4...
+Installing RDoc documentation for spree_cmd-2.0.4...
+Installing RDoc documentation for spree-2.0.4...
+~/src/temp/spree$ 
+~/src/temp/spree$ 
+~/src/temp/spree$ gem list spree
+
+*** LOCAL GEMS ***
+
+spree (2.0.4, 1.1.1, 1.1.0, 0.70.1)
+spree_api (2.0.4, 1.1.1, 1.1.0, 0.70.1)
+spree_auth (1.1.1, 1.1.0, 0.70.1)
+spree_backend (2.0.4)
+spree_cmd (2.0.4, 1.1.6, 1.1.1, 1.1.0)
+spree_core (2.0.4, 1.1.1, 1.1.0, 0.70.1)
+spree_dash (1.1.1, 1.1.0, 0.70.1)
+spree_frontend (2.0.4)
+spree_promo (1.1.1, 1.1.0, 0.70.1)
+spree_sample (2.0.4, 1.1.1, 1.1.0, 0.70.1)
+spree_skrill (1.0.2)
+spree_usa_epay (1.0.2)
+~/src/temp/spree$ rails _3.2.14_ new my_store
+      create  
+      create  README.rdoc
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/images/rails.png
+      create  app/assets/javascripts/application.js
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/mailers
+      create  app/models
+      create  app/views/layouts/application.html.erb
+      create  app/mailers/.gitkeep
+      create  app/models/.gitkeep
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/secret_token.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  doc
+      create  doc/README_FOR_APP
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.gitkeep
+      create  lib/assets
+      create  lib/assets/.gitkeep
+      create  log
+      create  log/.gitkeep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/index.html
+      create  public/robots.txt
+      create  script
+      create  script/rails
+      create  test/fixtures
+      create  test/fixtures/.gitkeep
+      create  test/functional
+      create  test/functional/.gitkeep
+      create  test/integration
+      create  test/integration/.gitkeep
+      create  test/unit
+      create  test/unit/.gitkeep
+      create  test/performance/browsing_test.rb
+      create  test/test_helper.rb
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.gitkeep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.gitkeep
+      create  vendor/plugins
+      create  vendor/plugins/.gitkeep
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Fetching gem metadata from https://rubygems.org/..
+Resolving dependencies...
+Using rake (10.1.0) 
+Using i18n (0.6.5) 
+Using multi_json (1.7.9) 
+Using activesupport (3.2.14) 
+Using builder (3.0.4) 
+Using activemodel (3.2.14) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.5) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.2) 
+Using hike (1.2.3) 
+Using tilt (1.4.1) 
+Using sprockets (2.2.2) 
+Using actionpack (3.2.14) 
+Using mime-types (1.24) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.15) 
+Using mail (2.5.4) 
+Using actionmailer (3.2.14) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.37) 
+Using activerecord (3.2.14) 
+Using activeresource (3.2.14) 
+Using bundler (1.3.5) 
+Using coffee-script-source (1.6.3) 
+Using execjs (2.0.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.3) 
+Using json (1.8.0) 
+Using rdoc (3.12.2) 
+Using thor (0.18.1) 
+Using railties (3.2.14) 
+Using coffee-rails (3.2.2) 
+Using jquery-rails (3.0.4) 
+Using rails (3.2.14) 
+Using sass (3.2.10) 
+Using sass-rails (3.2.6) 
+Using sqlite3 (1.3.8) 
+Using uglifier (2.2.0) 
+Your bundle is complete!
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+~/src/temp/spree$ 
+~/src/temp/spree$ 
+~/src/temp/spree$ spree install my_store
+Would you like to install the default gateways? (Recommended) (yes/no) [yes] 
+Would you like to install the default authentication system? (yes/no) [yes] 
+Would you like to run the migrations? (yes/no) [yes] 
+Would you like to load the seed data? (yes/no) [yes] 
+Would you like to load the sample data? (yes/no) [yes] 
+     gemfile  spree
+     gemfile  spree_gateway
+     gemfile  spree_auth_devise
+         run  bundle install from "./my_store"
+remote: Counting objects: 1348, done.
+remote: Compressing objects: 100% (667/667), done.
+remote: Total 1348 (delta 588), reused 1101 (delta 388)
+Receiving objects: 100% (1348/1348), 158.77 KiB | 272 KiB/s, done.
+Resolving deltas: 100% (588/588), done.
+remote: Counting objects: 3353, done.
+remote: Compressing objects: 100% (1833/1833), done.
+remote: Total 3353 (delta 1524), reused 2955 (delta 1183)
+Receiving objects: 100% (3353/3353), 600.03 KiB | 289 KiB/s, done.
+Resolving deltas: 100% (1524/1524), done.
+      create  config/initializers/spree.rb
+      create  config/spree.yml
+      remove  public/index.html
+      append  public/robots.txt
+      create  app/assets/javascripts/store
+      create  app/assets/javascripts/admin
+      create  app/assets/stylesheets/store
+      create  app/assets/stylesheets/admin
+      create  app/assets/images/store
+      create  app/assets/images/admin
+      create  app/assets/javascripts/store/all.js
+      create  app/assets/javascripts/admin/all.js
+      create  app/assets/stylesheets/store/all.css
+      create  app/assets/stylesheets/admin/all.css
+      create  app/overrides
+      append  config/environment.rb
+      append  db/seeds.rb
+     copying  migrations
+    creating  database
+     running  migrations
+     loading  seed data
+        rake  db:seed 
+loading ruby /Users/doug/.rvm/gems/ruby-1.9.3-p392/gems/spree_core-2.0.4/db/default/spree/countries.rb
+loading ruby /Users/doug/.rvm/gems/ruby-1.9.3-p392/gems/spree_core-2.0.4/db/default/spree/roles.rb
+loading ruby /Users/doug/.rvm/gems/ruby-1.9.3-p392/gems/spree_core-2.0.4/db/default/spree/states.rb
+loading ruby /Users/doug/.rvm/gems/ruby-1.9.3-p392/gems/spree_core-2.0.4/db/default/spree/zones.rb
+loading ruby /Users/doug/.rvm/gems/ruby-1.9.3-p392/bundler/gems/spree_auth_devise-3a1aa02e73d3/db/default/users.rb
+Create the admin user (press enter for defaults).
+Email [spree@example.com]: 
+Password [spree123]: 
+Done!
+     loading  sample data
+      insert  config/routes.rb
+**************************************************
+We added the following line to your application's config/routes.rb file:
+ 
+    mount Spree::Core::Engine, :at => '/'
+**************************************************
+Spree has been installed successfully. You're all ready to go!
+ 
+Enjoy!
+~/src/temp/spree$ 
+~/src/temp/spree$ 
+
