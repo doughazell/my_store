@@ -7,6 +7,10 @@
 <%# --- ONLY DISPLAY PRODUCTS WITH SAME NAME AS CATEGORY --- %>
 <%# --- Currently altering ":partial => 'spree/shared/products'" --- %>
 
+<div data-hook="homepage_products">
+  <%= render :partial => 'spree/shared/products', :locals => { :products => @products } %>
+</div>
+
 <%
 =begin %>
 
@@ -20,7 +24,5 @@
 <%
 =end %>
 
-<div data-hook="homepage_products">
-  <%= render :partial => 'spree/shared/products', :locals => { :products => @products } %>
-</div>
+
 
